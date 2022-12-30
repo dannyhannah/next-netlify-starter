@@ -18,29 +18,29 @@ export default function Home() {
     </Head>
     
     <main>
-    <Paper elevation={24}>
+      <Paper elevation={24}>
 
-    <Card sx={{ maxWidth: 500 }}>
-    <CardMedia
-    component="img"
-    alt="Danny Hannah"
-    height="150"
-    image="https://pbs.twimg.com/profile_banners/1149010087408742407/1569307384/1500x500"
-    />
-    <CardContent>
-    <Typography gutterBottom variant="h5" component="div">
-    Danny Hannah
-    </Typography>
-    <Typography variant="body2" color="text.secondary">
-    Experienced CTO and Technical Leader.
-    </Typography>
-    </CardContent>
-    <CardActions>
-    <Button size="small">Share</Button>
-    <Button size="small">Learn More</Button>
-    </CardActions>
-    </Card>
-    </Paper>
+        <Card sx={{ maxWidth: 500 }}>
+          <CardMedia
+          component="img"
+          alt="Danny Hannah"
+          height="150"
+          image="https://pbs.twimg.com/profile_banners/1149010087408742407/1569307384/1500x500"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+            Danny Hannah
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+            Experienced CTO and Technical Leader.
+            </Typography>
+          </CardContent>
+            <CardActions>
+              <Button size="small">Share</Button>
+              <Button size="small">Learn More</Button>
+            </CardActions>
+        </Card>
+      </Paper>
     </main>
     <Footer />
     </div>
